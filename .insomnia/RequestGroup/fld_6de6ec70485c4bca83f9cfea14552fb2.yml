@@ -1,0 +1,14 @@
+_id: fld_6de6ec70485c4bca83f9cfea14552fb2
+type: RequestGroup
+parentId: wrk_7c4b91536df4422da5771395a9e8a605
+modified: 1725433966248
+created: 1725431388912
+name: Folder15
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1725426405267.4272
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

@@ -1,0 +1,26 @@
+_id: req_b5609f663154436aa1d9a1f559833f4e
+type: Request
+parentId: fld_dfd5e1382d3741f09e24c1e259d665aa
+modified: 1725433966562
+created: 1725431368780
+url: https://dummyjson.com/products/5
+name: Get product5
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.0.0-beta.0
+authentication: {}
+preRequestScript: null
+metaSortKey: -1724963052785
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

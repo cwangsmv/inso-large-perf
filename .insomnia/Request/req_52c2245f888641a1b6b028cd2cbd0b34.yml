@@ -1,0 +1,41 @@
+_id: req_52c2245f888641a1b6b028cd2cbd0b34
+type: Request
+parentId: wrk_7c4b91536df4422da5771395a9e8a605
+modified: 1725783049291
+created: 1725431998502
+url: "https://dummyjson.com/auth/  "
+name: login meta
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.0.0-beta.0
+authentication:
+  prefix: Bearer
+  token: "{% response 'body', 'req_6f42716114194812bd27f36e29bd6776',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+  type: bearer
+preRequestScript: null
+metaSortKey: -1725430383149.5
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: fld_b244787cdafc45f7addde548ac5e24fb
+type: RequestGroup
+parentId: fld_b8e4854b3f90480faf2f8ed6e5a45960
+modified: 1725433966223
+created: 1725431436054
+name: Folder1
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1725429231908
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

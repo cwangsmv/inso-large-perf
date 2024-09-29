@@ -1,0 +1,14 @@
+_id: fld_b8e4854b3f90480faf2f8ed6e5a45960
+type: RequestGroup
+parentId: wrk_7c4b91536df4422da5771395a9e8a605
+modified: 1725433966238
+created: 1725431436053
+name: Folder9
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1725426405726.744
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

@@ -1,0 +1,142 @@
+_id: env_6342b67afad54a7fb37b20e3fa22ef42
+type: Environment
+parentId: env_5ce0bfa7714f0d51d9ce1937d4b66e0eeebfd920
+modified: 1725433966125
+created: 1725428792644
+name: Sub2
+data:
+  user1:
+    age: 25
+    country: USA
+    email: alice@example.com
+    id: 1
+    name: Alice2
+  user10:
+    age: 26
+    country: Sweden
+    email: jack@example.com
+    id: 10
+    name: Jack1
+  user2:
+    age: 30
+    country: Canada
+    email: bob@example.com
+    id: 2
+    name: Bob2
+  user3:
+    age: 28
+    country: UK
+    email: charlie@example.com
+    id: 3
+    name: Charlie1
+  user4:
+    age: 22
+    country: Australia
+    email: david@example.com
+    id: 4
+    name: David1
+  user5:
+    age: 35
+    country: Germany
+    email: eva@example.com
+    id: 5
+    name: Eva1
+  user6:
+    age: 27
+    country: France
+    email: frank@example.com
+    id: 6
+    name: Frank1
+  user7:
+    age: 29
+    country: Italy
+    email: grace@example.com
+    id: 7
+    name: Grace1
+  user8:
+    age: 24
+    country: Spain
+    email: hannah@example.com
+    id: 8
+    name: Hannah1
+  user9:
+    age: 32
+    country: Netherlands
+    email: isaac@example.com
+    id: 9
+    name: Isaac1
+dataPropertyOrder:
+  "&":
+    - user1
+    - user2
+    - user3
+    - user4
+    - user5
+    - user6
+    - user7
+    - user8
+    - user9
+    - user10
+  "&~|user1":
+    - id
+    - name
+    - email
+    - age
+    - country
+  "&~|user10":
+    - id
+    - name
+    - email
+    - age
+    - country
+  "&~|user2":
+    - id
+    - name
+    - email
+    - age
+    - country
+  "&~|user3":
+    - id
+    - name
+    - email
+    - age
+    - country
+  "&~|user4":
+    - id
+    - name
+    - email
+    - age
+    - country
+  "&~|user5":
+    - id
+    - name
+    - email
+    - age
+    - country
+  "&~|user6":
+    - id
+    - name
+    - email
+    - age
+    - country
+  "&~|user7":
+    - id
+    - name
+    - email
+    - age
+    - country
+  "&~|user8":
+    - id
+    - name
+    - email
+    - age
+    - country
+  "&~|user9":
+    - id
+    - name
+    - email
+    - age
+    - country
+color: null
+isPrivate: false
+metaSortKey: 1725428792644

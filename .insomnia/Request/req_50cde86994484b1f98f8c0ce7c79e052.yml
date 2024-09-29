@@ -1,0 +1,82 @@
+_id: req_50cde86994484b1f98f8c0ce7c79e052
+type: Request
+parentId: wrk_7c4b91536df4422da5771395a9e8a605
+modified: 1725527865490
+created: 1725431534491
+url: https://dummyjson.com/auth/login
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}",
+    	"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}",
+    		"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}",
+    	"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}",
+    		"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}",
+    	"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}",
+    		"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}",
+    	"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}",
+    		"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}",
+    	"username": "{{ _.username }}",
+    	"password": "{{ _.password }}",
+    	"email": "{{ _.user1.email }}",
+    	"name": "{{ _.user1.name }}",
+    	"age": "{{ _.user1.age }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.0.0-beta.0
+authentication: {}
+preRequestScript: null
+metaSortKey: -1725431534491
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

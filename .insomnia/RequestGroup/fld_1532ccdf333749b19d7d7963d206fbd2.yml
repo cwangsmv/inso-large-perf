@@ -1,0 +1,14 @@
+_id: fld_1532ccdf333749b19d7d7963d206fbd2
+type: RequestGroup
+parentId: wrk_7c4b91536df4422da5771395a9e8a605
+modified: 1725433966230
+created: 1725431468519
+name: Folder19
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1725426406171.707
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

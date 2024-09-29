@@ -1,0 +1,14 @@
+_id: fld_c20fcb48ed084be0bb067a5d6ff40db0
+type: RequestGroup
+parentId: wrk_7c4b91536df4422da5771395a9e8a605
+modified: 1725433966255
+created: 1725431381372
+name: Folder13
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1725426402511.5269
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

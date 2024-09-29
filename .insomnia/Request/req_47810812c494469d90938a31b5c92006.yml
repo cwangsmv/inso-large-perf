@@ -1,0 +1,63 @@
+_id: req_47810812c494469d90938a31b5c92006
+type: Request
+parentId: wrk_7c4b91536df4422da5771395a9e8a605
+modified: 1725437585029
+created: 1725436686541
+url: localhost:8083
+name: post everything
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"id": {% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5pZA==::46b', 'always', 60 %},
+    	"firstName": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5maXJzdE5hbWU=::46b', 'always', 60 %}",
+    	"lastName": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5sYXN0TmFtZQ==::46b', 'no-history', 60 %}",
+    	"age": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5hZ2U=::46b', 'never', 60 %}",
+    	"gender": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5nZW5kZXI=::46b', 'always', 60 %}",
+    	"age": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5hZ2U=::46b', 'when-expired', 60 %}",
+    	"email": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5lbWFpbA==::46b', 'always', 60 %}",
+    	"phone": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5waG9uZQ==::46b', 'always', 60 %}",
+    	"username": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC51c2VybmFtZQ==::46b', 'when-expired', 60 %}",
+    	"pwd": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5wYXNzd29yZA==::46b', 'always', 60 %}",
+    	"image": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5pbWFnZQ==::46b', 'always', 60 %}",
+    	"height": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5oZWlnaHQ=::46b', 'never', 60 %}",
+    	"weight": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC53ZWlnaHQ=::46b', 'when-expired', 60 %}",
+    	"ip": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5pcA==::46b', 'when-expired', 60 %}",
+    	"eyeColor": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5leWVDb2xvcg==::46b', 'no-history', 60 %}",
+    	"firstName": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5maXJzdE5hbWU=::46b', 'when-expired', 60 %}",
+    	"lastName": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5sYXN0TmFtZQ==::46b', 'always', 60 %}",
+    	"age": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5hZ2U=::46b', 'never', 60 %}",
+    	"gender": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5nZW5kZXI=::46b', 'no-history', 60 %}",
+    	"age": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5hZ2U=::46b', 'no-history', 60 %}",
+    	"email": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5lbWFpbA==::46b', 'always', 60 %}",
+    	"phone": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5waG9uZQ==::46b', 'always', 60 %}",
+    	"username": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC51c2VybmFtZQ==::46b', 'always', 60 %}",
+    	"pwd": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5wYXNzd29yZA==::46b', 'always', 60 %}",
+    	"image": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5pbWFnZQ==::46b', 'no-history', 60 %}",
+    	"height": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5oZWlnaHQ=::46b', 'no-history', 60 %}",
+    	"weight": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC53ZWlnaHQ=::46b', 'when-expired', 60 %}",
+    	"ip": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5pcA==::46b', 'always', 60 %}",
+    	"eyeColor": "{% response 'body', 'req_cec329c1666b4e24a60ba797eab6df96', 'b64::JC5leWVDb2xvcg==::46b', 'no-history', 60 %}",
+
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.0.0-beta.0
+authentication: {}
+preRequestScript: null
+metaSortKey: -1725436686541
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
